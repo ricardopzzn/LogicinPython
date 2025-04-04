@@ -1,0 +1,6 @@
+print('                       Aluguel de carrros')
+print(20 * '-=')
+a = int(input('Quantos dias alugados? '))
+b = float(input('Qual a quantidade de KM rodado? '))
+valor = (a * 60) + (b * 0.15)
+print(f'O valor total a pagar é de {valor:.2f}R$')
