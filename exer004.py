@@ -1,3 +1,5 @@
+print('Dissecando uma várialvel') # Nome do desafio.
+
 print(20 * '-=')
 pl = input('Digite uma palavra: ')
 print(f'O tipo primitivo desse valor é {type(pl)}')
