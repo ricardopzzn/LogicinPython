@@ -1,3 +1,5 @@
+
+
 print(20 * '-=')
 print('Iniciando programa')
 n1 = int(input('Digite o primeiro número: '))
