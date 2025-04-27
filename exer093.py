@@ -27,3 +27,4 @@ print()
 print(f'O jogador {information['Nome']} jogou {player} partidas.')
 for c, lista in enumerate(numeros):
     print(f'==> Na partida {c}, fez {lista} gols')
+print(f'==> Foi um total de {sum(information['Gols'])} gols'.center(10))
