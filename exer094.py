@@ -41,7 +41,7 @@ def main():
         if cadastro['Idade'] > 25:
             list_acima.append(cadastro.copy())
         
-        option = str(input('Deseja continuar? S/N')).strip().upper()
+        option = str(input('Deseja continuar? S/N')).strip()[0].upper()
         if option == 'N':
             break
     soma = 0
