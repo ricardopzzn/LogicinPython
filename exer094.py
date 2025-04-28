@@ -44,11 +44,12 @@ def main():
         option = str(input('Deseja continuar? S/N')).strip()[0].upper()
         if option == 'N':
             break
+        
     soma = 0
     for pessoas in list_add:
         soma += pessoas['Idade']
-    
     media = soma / len(list_add)
+    
     print(f'Foram cadastradas {len(list_add)} pessoas!')
     print(f'A media de idade é {media}')
     if len(list_feminina) == 0:
