@@ -5,7 +5,7 @@ def information():
             listanome['Nome'] = str(input('Qual o nome? '))
             listanome['Idade'] = int(input('Qual a idade? '))
             while True:
-                listanome['Sexo'] = str(input('Qual o sexo? [M/F]')).strip().upper()
+                listanome['Sexo'] = str(input('Qual o sexo? [M/F]')).strip()[0].upper()
                 if listanome['Sexo'] in ('M', 'F'):
                     break
                 else:
