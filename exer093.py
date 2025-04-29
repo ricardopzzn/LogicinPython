@@ -6,8 +6,8 @@ while True:
         player = int(input(f'Quantas partidas {information['Nome']} jogou?'))
         for c in range(1, player + 1):
             gols = int(input(f'Quantos gols na partida {c}:'))
-            numeros.append(gols)
-        break        
+            numeros.append(gols)    
+        break   
     except:
         print(f'[ERRO!] Tente novamente...')
         
