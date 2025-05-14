@@ -14,9 +14,9 @@ def player(name='', gols=0):
     
     if len(name.strip()) == 0:
         name = '<desconhecido>'
-        print(f'Nome {name} fez {gols} gols na partida')
+        print(f'Nome {name} fez {gols} gol(s) na partida')
     else:
-        print(f'O jogador {name} fez {gols} gols na partida')
+        print(f'O jogador {name} fez {gols} gol(s) na partida')
 
 
 print('Ficha de jogador')

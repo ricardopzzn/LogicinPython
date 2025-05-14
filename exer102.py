@@ -1,4 +1,12 @@
 def fatorial(n, infor=False):
+    """
+    Função para calcular o fatorial de determinado número.
+    :param n: vai receber o número que deseja o fatorial
+    :param infor: vai receber True ou False para mostra o calculo
+    :return: O resultado final
+    """
+    
+    
     if n < 0:
         raise ValueError("Fatorial não está definido para números negativos.")
     resultado = 1
